@@ -25,5 +25,5 @@ try:
 		time.sleep(.125)
 
 except Exception as e:
-	GPIO.cleanup()
+    GPIO.cleanup()
     print(e)
